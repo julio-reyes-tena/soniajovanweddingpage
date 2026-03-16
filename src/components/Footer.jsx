@@ -2,7 +2,8 @@ function Footer() {
   return (
     <footer className="footer">
       <div className="container">
-        <p>Made with love for our wedding day.</p>
+        <p>a wee wee.</p>
+        <p>instagrame</p>
       </div>
     </footer>
   );

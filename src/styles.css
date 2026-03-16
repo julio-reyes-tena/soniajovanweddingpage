@@ -262,3 +262,29 @@ textarea {
   object-fit: cover;
 }
 
+.countdown {
+  display: flex;
+  justify-content: center;
+  gap: 28px;
+  margin-bottom: 28px;
+  margin-top: 10px;
+}
+
+.countdown div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.countdown span {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #3b2f2f;
+}
+
+.countdown small {
+  font-size: 0.75rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #9c7b6b;
+}

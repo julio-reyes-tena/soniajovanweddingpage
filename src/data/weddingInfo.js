@@ -1,47 +1,48 @@
 export const weddingInfo = {
   coupleNames: "Sonia & Jovan",
-  weddingDate: "June 20, 2027",
-  tagline: "Together with their families",
+  weddingDate: "Septiembre 12, 2026",
+  tagline: "Casorio de ",
   heroLine: "Request the pleasure of your company",
-  venueName: "Monterey Bay Venue",
-  venueAddress: "123 Ocean View Drive, Monterey, CA",
+  venueName: "Rancho ",
+  venueAddress: "iglesia en merced, CA",
   venueMapUrl: "https://maps.google.com",
+  weddingDateISO: "2026-09-12T16:00:00",
+
   story: {
-    title: "Our Story",
+    title: "Nuestra Historia",
     paragraphs: [
-      "What began as a simple connection became a beautiful life built on love, laughter, and shared dreams.",
-      "We are so grateful to celebrate this unforgettable chapter surrounded by the people we cherish most.",
+      "Quien sabe",
     ],
   },
   schedule: [
     {
-      time: "3:30 PM",
-      title: "Ceremony",
-      description: "Join us as we exchange vows and begin our next chapter together.",
+      time: "11 am",
+      title: "Cermonia",
+      description: "casorio en iglesia.",
     },
     {
       time: "5:00 PM",
-      title: "Cocktail Hour",
-      description: "Enjoy signature drinks, light bites, and a sunset celebration.",
+      title: "pachangon",
+      description: "pachanga.",
     },
     {
       time: "6:30 PM",
       title: "Reception",
-      description: "Dinner, dancing, and an evening to remember.",
+      description: "bailongo.",
     },
   ],
   registry: [
     { name: "Amazon Registry", url: "#" },
-    { name: "Target Registry", url: "#" },
+    { name: "Ross Registry", url: "#" },
   ],
   faq: [
     {
-      question: "What should I wear?",
-      answer: "Formal or semi-formal attire is kindly requested.",
+      question: "código de vestimenta",
+      answer: "no americanistas",
     },
     {
-      question: "Can I bring a guest?",
-      answer: "Please refer to your invitation for the guests included in your party.",
+      question: "2",
+      answer: ".",
     },
   ],
 };
