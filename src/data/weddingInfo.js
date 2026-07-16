@@ -6,7 +6,7 @@ export const weddingInfo = {
   venues: [
   {
     type: "Ceremonia",
-    name: "Sacred Heart Church La Iglesia Sagrado Corazón",
+    name: "La Iglesia Sagrado Corazón",
     address: " 519 W 12th St, Merced, CA 95341",
     mapUrl: "https://share.google/PFmSiT4BnisNXOHtL",
   },
