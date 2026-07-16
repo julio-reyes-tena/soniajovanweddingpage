@@ -3,9 +3,21 @@ export const weddingInfo = {
   weddingDate: "Septiembre 12, 2026",
   tagline: "Casorio de ",
   heroLine: "Request the pleasure of your company",
-  venueName: "Rancho ",
-  venueAddress: "iglesia en merced, CA",
-  venueMapUrl: "https://maps.google.com",
+  venues: [
+  {
+    type: "Ceremony",
+    name: "Church Name",
+    address: "Church address, Merced, CA",
+    mapUrl: "https://maps.google.com",
+  },
+  {
+    type: "Reception",
+    name: "Rancho",
+    address: "Reception address, Merced, CA",
+    mapUrl: "https://maps.google.com",
+  },
+],
+
   weddingDateISO: "2026-09-12T16:00:00",
 
   story: {
@@ -31,10 +43,7 @@ export const weddingInfo = {
       description: "bailongo.",
     },
   ],
-  registry: [
-    { name: "Amazon Registry", url: "#" },
-    { name: "Ross Registry", url: "#" },
-  ],
+
   faq: [
     {
       question: "código de vestimenta",

@@ -6,18 +6,25 @@ function Venue() {
       <div className="container narrow">
         <h2>Venue</h2>
 
-        <div className="card venue-card">
-          <h3>{weddingInfo.venueName}</h3>
-          <p>{weddingInfo.venueAddress}</p>
+        <div className="venue-list">
+          {weddingInfo.venues.map((venue, index) => (
+            <div className="card venue-card" key={index}>
+              <p className="venue-type">{venue.type}</p>
 
-          <a
-            href={weddingInfo.venueMapUrl}
-            target="_blank"
-            rel="noreferrer"
-            className="button-secondary"
-          >
-            Open Map
-          </a>
+              <h3>{venue.name}</h3>
+
+              <p>{venue.address}</p>
+
+              <a
+                href={venue.mapUrl}
+                target="_blank"
+                rel="noreferrer"
+                className="button-secondary"
+              >
+                Open Map
+              </a>
+            </div>
+          ))}
         </div>
       </div>
     </section>

@@ -15,7 +15,6 @@ function Navbar() {
           <a href="/#venue">Venue</a>
           <Link to="/gallery">Gallery</Link>
          <Link to="/faq">FAQ</Link>
-                   <a href="/#registry">Registry</a>
 
         </div>
       </nav>
