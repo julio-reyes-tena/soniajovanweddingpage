@@ -3,9 +3,7 @@ import Hero from "../components/Hero";
 import Story from "../components/Story";
 import Schedule from "../components/Schedule";
 import Venue from "../components/Venue";
-import RSVPForm from "../components/RSVPForm";
 import Registry from "../components/Registry";
-import FAQ from "../components/FAQ";
 import Footer from "../components/Footer";
 
 function Home() {
@@ -13,13 +11,11 @@ function Home() {
     <div className="site-shell">
       <Navbar />
       <Hero />
-       <Schedule />
+      <Registry />
       <Story />
       <Schedule />
       <Venue />
-      <RSVPForm />
-      <Registry />
-      <FAQ />
+      
       <Footer />
     </div>
   );

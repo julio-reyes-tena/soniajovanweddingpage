@@ -1,7 +1,6 @@
-
 import { useEffect, useState } from "react";
 import { weddingInfo } from "../data/weddingInfo";
-import hero from "../assets/sj7.jpeg";
+import hero from "../assets/sj3.jpeg";
 
 function Hero() {
   const [timeLeft, setTimeLeft] = useState(getTimeRemaining());
@@ -10,12 +9,14 @@ function Hero() {
     const total =
       new Date(weddingInfo.weddingDateISO).getTime() - new Date().getTime();
 
-    const seconds = Math.floor((total / 1000) % 60);
-    const minutes = Math.floor((total / 1000 / 60) % 60);
-    const hours = Math.floor((total / (1000 * 60 * 60)) % 24);
-    const days = Math.floor(total / (1000 * 60 * 60 * 24));
+    const safeTotal = Math.max(total, 0);
 
-    return { total, days, hours, minutes, seconds };
+    const seconds = Math.floor((safeTotal / 1000) % 60);
+    const minutes = Math.floor((safeTotal / 1000 / 60) % 60);
+    const hours = Math.floor((safeTotal / (1000 * 60 * 60)) % 24);
+    const days = Math.floor(safeTotal / (1000 * 60 * 60 * 24));
+
+    return { total: safeTotal, days, hours, minutes, seconds };
   }
 
   useEffect(() => {
@@ -27,49 +28,48 @@ function Hero() {
   }, []);
 
   return (
-    <section
-      id="home"
-      className="hero section"
-      style={{
-        backgroundImage: `linear-gradient(rgba(255,250,247,0.55), rgba(255,250,247,0.85)), url(${hero})`,
-        backgroundSize: "cover",
-        backgroundPosition: "center",
-      }}
-      
-    >
-
-      <div className="container hero-content">
-        <p className="eyebrow">{weddingInfo.tagline}</p>
-
-        <h1>{weddingInfo.coupleNames}</h1>
-
-        <p className="hero-date">{weddingInfo.weddingDate}</p>
-
-        <div className="countdown">
-          <div>
-            <span>{timeLeft.days}</span>
-            <small>Days</small>
-          </div>
-
-          <div>
-            <span>{timeLeft.hours}</span>
-            <small>Hours</small>
-          </div>
-
-          <div>
-            <span>{timeLeft.minutes}</span>
-            <small>Minutes</small>
-          </div>
-
-          <div>
-            <span>{timeLeft.seconds}</span>
-            <small>Seconds</small>
-          </div>
+    <section id="home" className="hero section">
+      <div className="container hero-layout">
+        <div className="hero-image-wrap">
+          <img
+            src={hero}
+            alt="Sonia and Jovan"
+            className="hero-image"
+          />
         </div>
 
-        <a href="#rsvp" className="button-primary">
-          RSVP
-        </a>
+        <div className="hero-content">
+          <p className="eyebrow">{weddingInfo.tagline}</p>
+
+          <h1>{weddingInfo.coupleNames}</h1>
+
+          <p className="hero-date">{weddingInfo.weddingDate}</p>
+
+          <div className="countdown">
+            <div>
+              <span>{timeLeft.days}</span>
+              <small>Days</small>
+            </div>
+
+            <div>
+              <span>{timeLeft.hours}</span>
+              <small>Hours</small>
+            </div>
+
+            <div>
+              <span>{timeLeft.minutes}</span>
+              <small>Minutes</small>
+            </div>
+
+            <div>
+              <span>{timeLeft.seconds}</span>
+              <small>Seconds</small>
+            </div>
+          </div>
+
+          
+          
+        </div>
       </div>
     </section>
   );

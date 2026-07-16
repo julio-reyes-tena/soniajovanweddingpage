@@ -14,9 +14,9 @@ function Navbar() {
           <a href="/#schedule">Schedule</a>
           <a href="/#venue">Venue</a>
           <Link to="/gallery">Gallery</Link>
-          <a href="/#rsvp">RSVP</a>
-          <a href="/#registry">Registry</a>
-          <a href="/#faq">FAQ</a>
+         <Link to="/faq">FAQ</Link>
+                   <a href="/#registry">Registry</a>
+
         </div>
       </nav>
     </header>
