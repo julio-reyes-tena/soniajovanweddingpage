@@ -5,16 +5,16 @@ export const weddingInfo = {
   heroLine: "Request the pleasure of your company",
   venues: [
   {
-    type: "Ceremony",
-    name: "Church Name",
-    address: "Church address, Merced, CA",
-    mapUrl: "https://maps.google.com",
+    type: "Ceremonia",
+    name: "Sacred Heart Church La Iglesia Sagrado Corazón",
+    address: " 519 W 12th St, Merced, CA 95341",
+    mapUrl: "https://share.google/PFmSiT4BnisNXOHtL",
   },
   {
     type: "Reception",
-    name: "Rancho",
-    address: "Reception address, Merced, CA",
-    mapUrl: "https://maps.google.com",
+    name: "Rancho Pollillo",
+     address: "970 Mather Rd, Merced, CA 95341",
+    mapUrl: "https://share.google/njvGQuz4SCj3J4Q9o",
   },
 ],
 

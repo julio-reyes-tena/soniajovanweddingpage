@@ -10,12 +10,23 @@ function Navbar() {
         </Link>
 
         <div className="nav-links">
-          <a href="/#story">Story</a>
-          <a href="/#schedule">Schedule</a>
-          <a href="/#venue">Venue</a>
-          <Link to="/gallery">Gallery</Link>
-         <Link to="/faq">FAQ</Link>
+        
+<div className="nav-dropdown">
+  <Link to="/" className="nav-dropdown-button">
+    Home
+  </Link>
 
+  <div className="nav-dropdown-menu">
+    <a href="/#story">Story</a>
+    <a href="/#schedule">Schedule</a>
+    <a href="/#venue">Venue</a>
+  </div>
+
+            
+          </div>
+
+          <Link to="/gallery">Gallery</Link>
+          <Link to="/faq">FAQ</Link>
         </div>
       </nav>
     </header>
