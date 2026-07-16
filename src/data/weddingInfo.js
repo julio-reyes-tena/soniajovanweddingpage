@@ -12,7 +12,7 @@ export const weddingInfo = {
   },
   {
     type: "Reception",
-    name: "Rancho Pollillo",
+    name: "Rancho Pulido",
      address: "970 Mather Rd, Merced, CA 95341",
     mapUrl: "https://share.google/njvGQuz4SCj3J4Q9o",
   },
@@ -52,29 +52,54 @@ export const weddingInfo = {
   ],
 
   faq: [
+    
+  {
+  question: "Hoteles cercanos",
+  links: [
     {
-      question: "Código de Vestimenta",
-      answer: "No hay un código de vestimenta formal para la boda. Les recomendamos usar ropa y zapatos cómodos de verano, ya que la recepción será al aire libre, en un rancho con terreno firme. Botas, zapatos bajos, plataformas, o cualquier calzado cómodo son bienvenidos. El clima en septiembre puede variar, así que vístanse como les resulte más cómodo.",
+      name: "Hotel Name 1",
+      url: "https://maps.google.com",
     },
+    {
+      name: "Hotel Name 2",
+      url: "https://maps.google.com",
+    },
+    {
+      name: "Hotel Name 3",
+      url: "https://maps.google.com",
+    },
+  ],
+},
+
+
+    {
+      question: "Código de vestimenta",
+      answer: "No hay un código de vestimenta formal para la boda. Les recomendamos usar ropa y zapatos cómodos para el verano, ya que la recepción será al aire libre, en un rancho con terreno firme. Las botas, los zapatos bajos, las plataformas o cualquier calzado cómodo son bienvenidos. El clima en septiembre puede variar, así que vístanse de la manera que les resulte más cómoda."
+        },
     {
       question: "Estacionamiento",
-      answer: "La recepción y la comida comienzan a las 2 pm en el rancho de la familia Pulido. Por favor, estacionense a lo largo de la calle. Para más información, contacten a los novios..",
+      answer: "La recepción y la comida comienzan a las 2:00 p. m. en el rancho de la familia Pulido. Por favor, estaciónense a lo largo de la calle. Para más información, contacten a los novios."
     },
     {
-      question: "Restricciones alimenticia",
-      answer: "No vamos a tener servicio de comida por platillo. Si tienen restricciones alimentarias, por favor, háganoslo saber para tratar de hacer un plan dentro de lo que tenemos planeado. "
+      question: "Restricciones alimentarias",
+      answer: "No tendremos servicio de comida por platillo. Si tienen restricciones alimentarias, por favor, háganoslo saber para tratar de hacer un plan dentro de lo que tenemos previsto."
     },
     { 
       question: "Presencia de niños",
-      answer: "Si! Queremos celebrar con ustedes y sus niños. Solo deben saber que habrá música en vivo y animales en la propiedad. "
+      answer: "¡Sí! Queremos celebrar con ustedes y con sus niños. Solo deben tener en cuenta que habrá música en vivo y animales en la propiedad. "
     },
      {
       question: "Horario de cóctel",
-      answer: "Cuando lleguen al rancho, ya estarán disponibles la bebida y botanas.   "
+      answer: "Cuando lleguen al rancho, ya estarán disponibles las bebidas y las botanas.   "
     },
      {
       question: "Recalentado",
-      answer: "Tendremos el recalentado (o el torna boda) antes de que regresen a casa.  "
+      answer: "Tendremos recalentado, también conocido como torna boda, antes de que regresen a casa.  "
     },
+
+
+
+
+
   ],
 };

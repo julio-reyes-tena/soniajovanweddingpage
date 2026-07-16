@@ -6,11 +6,13 @@ function Story() {
       <div className="container narrow">
         <h2>{weddingInfo.story.title}</h2>
 
-        <div className="story-text">
-          {weddingInfo.story.paragraphs.map((paragraph, index) => (
-            <p key={index}>{paragraph}</p>
-          ))}
-        </div>
+        <article className="card story-card">
+          <div className="story-text">
+            {weddingInfo.story.paragraphs.map((paragraph, index) => (
+              <p key={index}>{paragraph}</p>
+            ))}
+          </div>
+        </article>
       </div>
     </section>
   );

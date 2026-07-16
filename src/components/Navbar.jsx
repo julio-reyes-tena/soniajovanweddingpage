@@ -10,23 +10,21 @@ function Navbar() {
         </Link>
 
         <div className="nav-links">
-        
-<div className="nav-dropdown">
-  <Link to="/" className="nav-dropdown-button">
-    Página Principal
-  </Link>
+          <div className="nav-dropdown">
+            <Link to="/" className="nav-dropdown-button">
+              Página Principal
+            </Link>
 
-  <div className="nav-dropdown-menu">
-    <a href="/#story">Mensaje de los Novios</a>
-    <a href="/#schedule">Cronograma</a>
-    <a href="/#venue">Evento</a>
-  </div>
-
-            
+            <div className="nav-dropdown-menu">
+              <a href="/#story">Mensaje de los Novios</a>
+              <a href="/#schedule">Cronograma</a>
+              <a href="/#venue">Evento</a>
+            </div>
           </div>
 
-          <Link to="/gallery">Gallería</Link>
-          <Link to="/faq">Preguntas Frequentes</Link>
+          <Link to="/information">Información</Link>
+          <Link to="/gallery">Galería</Link>
+          <Link to="/faq">Preguntas Frecuentes</Link>
         </div>
       </nav>
     </header>

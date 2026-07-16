@@ -6,9 +6,11 @@ function FAQPage() {
   return (
     <div className="site-shell">
       <Navbar />
+
       <main>
         <FAQ />
       </main>
+
       <Footer />
     </div>
   );
