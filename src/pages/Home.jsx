@@ -7,7 +7,6 @@ import RSVPForm from "../components/RSVPForm";
 import Registry from "../components/Registry";
 import FAQ from "../components/FAQ";
 import Footer from "../components/Footer";
-import Gallery from "../components/Gallery";
 
 function Home() {
   return (
@@ -16,7 +15,6 @@ function Home() {
       <Hero />
        <Schedule />
       <Story />
-      <Gallery />
       <Schedule />
       <Venue />
       <RSVPForm />

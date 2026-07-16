@@ -30,17 +30,12 @@ function Hero() {
     <section
       id="home"
       className="hero section"
-      /*style={{
+      style={{
         backgroundImage: `linear-gradient(rgba(255,250,247,0.55), rgba(255,250,247,0.85)), url(${hero})`,
         backgroundSize: "cover",
         backgroundPosition: "center",
-      }}*/
-      style={{
-  backgroundImage: `url(${hero})`,
-  backgroundSize: "cover",
-  backgroundPosition: "center",
-  backgroundRepeat: "no-repeat",
-}}
+      }}
+      
     >
 
       <div className="container hero-content">
