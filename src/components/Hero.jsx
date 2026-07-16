@@ -1,6 +1,7 @@
+
 import { useEffect, useState } from "react";
 import { weddingInfo } from "../data/weddingInfo";
-import hero from "../assets/duck.avif";
+import hero from "../assets/sj7.jpeg";
 
 function Hero() {
   const [timeLeft, setTimeLeft] = useState(getTimeRemaining());
@@ -29,12 +30,19 @@ function Hero() {
     <section
       id="home"
       className="hero section"
-      style={{
+      /*style={{
         backgroundImage: `linear-gradient(rgba(255,250,247,0.55), rgba(255,250,247,0.85)), url(${hero})`,
         backgroundSize: "cover",
         backgroundPosition: "center",
-      }}
+      }}*/
+      style={{
+  backgroundImage: `url(${hero})`,
+  backgroundSize: "cover",
+  backgroundPosition: "center",
+  backgroundRepeat: "no-repeat",
+}}
     >
+
       <div className="container hero-content">
         <p className="eyebrow">{weddingInfo.tagline}</p>
 

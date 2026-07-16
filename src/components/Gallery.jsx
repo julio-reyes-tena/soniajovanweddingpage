@@ -5,10 +5,14 @@ function Gallery() {
         <h2>Gallery</h2>
 
         <div className="gallery-grid">
-          <img src="/photos/1.jpg" />
-          <img src="/photos/2.png" />
-          <img src="/photos/3.jpg" />
-          <img src="/photos/4.jpg" />
+          <img src="/photos/sj1.jpeg" />
+          <img src="/photos/sj2.jpeg" />
+          <img src="/photos/sj3.jpeg" />
+          <img src="/photos/sj4.jpeg" />
+          <img src="/photos/sj5.jpeg" />
+          <img src="/photos/sj6.jpeg" />
+          <img src="/photos/sj7.jpeg" />
+
         </div>
       </div>
     </section>

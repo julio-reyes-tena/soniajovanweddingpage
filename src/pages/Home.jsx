@@ -14,6 +14,7 @@ function Home() {
     <div className="site-shell">
       <Navbar />
       <Hero />
+       <Schedule />
       <Story />
       <Gallery />
       <Schedule />

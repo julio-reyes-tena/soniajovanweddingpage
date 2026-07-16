@@ -1,3 +1,4 @@
+
 html {
   scroll-behavior: smooth;
 }
@@ -6,10 +7,22 @@ html {
   box-sizing: border-box;
 }
 
+/*
 body {
   margin: 0;
   font-family: Georgia, serif;
-  background: #fffaf7;
+  background: #824521;
+  color: #3b2f2f;
+}
+*/
+body {
+  margin: 0;
+  font-family: Georgia, serif;
+  background-image: url("./assets/flowers realistic.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   color: #3b2f2f;
 }
 
@@ -18,8 +31,9 @@ a {
   text-decoration: none;
 }
 
+/* gallery pictures */
 img {
-  max-width: 100%;
+  max-width: 75%;
   display: block;
 }
 
