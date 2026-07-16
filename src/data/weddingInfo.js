@@ -1,7 +1,7 @@
 export const weddingInfo = {
-  coupleNames: "Sonia & Jovan",
+  coupleNames: "Sonia y Jovan",
   weddingDate: "Septiembre 12, 2026",
-  tagline: "Casorio de ",
+  tagline: "La Boda de ",
   heroLine: "Request the pleasure of your company",
   venues: [
   {
@@ -18,40 +18,63 @@ export const weddingInfo = {
   },
 ],
 
-  weddingDateISO: "2026-09-12T16:00:00",
+  weddingDateISO: "2026-09-12T12:30:00-07:00",
 
   story: {
-    title: "Nuestra Historia",
+    title: "Mensaje de los Novios",
     paragraphs: [
-      "Quien sabe",
+      "Queridos amigos y familiares, estamos profundamente agradecidos por su presencia. Su apoyo y amor hacen que este día sea inolvidable para nosotros. Su presencia es regalo suficiente, pero si gustan darnos un regalo, apreciaremos una contribución hacia nuestra luna de miel.",
     ],
   },
   schedule: [
     {
-      time: "11 am",
+      time: "12:30 PM",
       title: "Cermonia",
-      description: "casorio en iglesia.",
+      description: "Ceremonia de bodas",
     },
     {
-      time: "5:00 PM",
-      title: "pachangon",
-      description: "pachanga.",
+      time: "2:00 PM",
+      title: "Fotos ",
+      description: "Fotos en la Iglesia.",
+    },
+    
+    {
+      time: "3:00 PM",
+      title: "Comida",
+      description: "Comida Disponible.",
     },
     {
-      time: "6:30 PM",
+      time: "6:00 PM +",
       title: "Reception",
-      description: "bailongo.",
+      description: "Musica y Baile.",
     },
+    
   ],
 
   faq: [
     {
-      question: "código de vestimenta",
-      answer: "no americanistas",
+      question: "Código de Vestimenta",
+      answer: "No hay un código de vestimenta formal para la boda. Les recomendamos usar ropa y zapatos cómodos de verano, ya que la recepción será al aire libre, en un rancho con terreno firme. Botas, zapatos bajos, plataformas, o cualquier calzado cómodo son bienvenidos. El clima en septiembre puede variar, así que vístanse como les resulte más cómodo.",
     },
     {
-      question: "2",
-      answer: ".",
+      question: "Estacionamiento",
+      answer: "La recepción y la comida comienzan a las 2 pm en el rancho de la familia Pulido. Por favor, estacionense a lo largo de la calle. Para más información, contacten a los novios..",
+    },
+    {
+      question: "Restricciones alimenticia",
+      answer: "No vamos a tener servicio de comida por platillo. Si tienen restricciones alimentarias, por favor, háganoslo saber para tratar de hacer un plan dentro de lo que tenemos planeado. "
+    },
+    { 
+      question: "Presencia de niños",
+      answer: "Si! Queremos celebrar con ustedes y sus niños. Solo deben saber que habrá música en vivo y animales en la propiedad. "
+    },
+     {
+      question: "Horario de cóctel",
+      answer: "Cuando lleguen al rancho, ya estarán disponibles la bebida y botanas.   "
+    },
+     {
+      question: "Recalentado",
+      answer: "Tendremos el recalentado (o el torna boda) antes de que regresen a casa.  "
     },
   ],
 };

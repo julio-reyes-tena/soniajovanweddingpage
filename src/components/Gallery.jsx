@@ -2,7 +2,7 @@ function Gallery() {
   return (
     <section className="section">
       <div className="container">
-        <h2>Gallery</h2>
+        <h2>Galleria</h2>
 
         <div className="gallery-grid">
           <img src="/photos/sj1.jpeg" />
@@ -19,4 +19,4 @@ function Gallery() {
   );
 }
 
-export default Gallery;
+export default Gallery; 

@@ -4,7 +4,7 @@ function FAQ() {
   return (
     <section id="faq" className="section section-alt">
       <div className="container narrow">
-        <h2>FAQ</h2>
+        <h2>Preguntas Frequentes</h2>
 
         <div className="faq-list">
           {weddingInfo.faq.map((item, index) => (

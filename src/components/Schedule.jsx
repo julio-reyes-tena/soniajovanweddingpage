@@ -4,7 +4,7 @@ function Schedule() {
   return (
     <section id="schedule" className="section section-alt">
       <div className="container">
-        <h2>Schedule</h2>
+        <h2>Programa</h2>
 
         <div className="card-grid">
           {weddingInfo.schedule.map((item, index) => (

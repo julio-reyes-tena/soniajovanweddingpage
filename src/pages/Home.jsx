@@ -9,11 +9,14 @@ function Home() {
   return (
     <div className="site-shell">
       <Navbar />
-      <Hero />      
+      <Hero /> 
+            <Story />
+     
       <Venue />
 
-      <Story />
       <Schedule />
+
+
       
       <Footer />
     </div>

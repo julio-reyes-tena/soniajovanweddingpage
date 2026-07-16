@@ -8,7 +8,7 @@ function Footer() {
           rel="noreferrer"
           className="social-link"
         >
-          Bride’s Instagram
+          Instagram de la Novia
         </a>
 
         <a
@@ -17,7 +17,7 @@ function Footer() {
           rel="noreferrer"
           className="social-link"
         >
-          Groom’s Instagram
+          Instagram del Novio
         </a>
       </div>
     </footer>

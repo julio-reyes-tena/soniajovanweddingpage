@@ -39,7 +39,7 @@
 .brand {    /* the sonia and jovan at the top , navbar */
   font-size: 1.15rem;
   font-weight: 700;
-  color: #9017495c;
+  color: #78103b5c;
 }
 
 .nav-links {
@@ -171,14 +171,14 @@ p {
 /*cards under Schedule */
 .card-grid {    
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 24px;
 }
 
 
 
 .card { /*all card colors venue, rsvp, registry, faq */
-  background: #c79375;
+  background: #e2dfd0;
   border: 1px solid #eaded7;
   border-radius: 24px;
   padding: 28px;
@@ -191,7 +191,7 @@ p {
   font-size: 0.82rem;
   text-transform: uppercase;
   letter-spacing: 0.14em;
-  color: #7de00d;
+  color: #080908;
 }
 
 .venue-card p {
@@ -214,7 +214,7 @@ p {
   margin: 0 auto 190px;
   padding: 28px 20px;
   text-align: center;
-  background: rgba(255, 255, 255, 0.85);
+  background: rgba(173, 36, 36, 0.85);
   border-radius: 20px;
 }
 
@@ -294,7 +294,7 @@ p {
   font-weight: 700;
   letter-spacing: 0.15em;
   text-transform: uppercase;
-  color: #7de00d;
+  color: #121211;
 }
 
 
@@ -367,10 +367,7 @@ p {
   .venue-list {
     grid-template-columns: 1fr;
   }
-}
 
-
-@media (max-width: 820px) {
   .navbar-inner {
     flex-direction: column;
     justify-content: center;
@@ -400,9 +397,7 @@ p {
   }
 
   
-}
 
-@media (max-width: 820px) {
   .nav-dropdown-menu {
     position: static;
     display: flex;

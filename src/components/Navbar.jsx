@@ -13,20 +13,20 @@ function Navbar() {
         
 <div className="nav-dropdown">
   <Link to="/" className="nav-dropdown-button">
-    Home
+    Página Principal
   </Link>
 
   <div className="nav-dropdown-menu">
-    <a href="/#story">Story</a>
-    <a href="/#schedule">Schedule</a>
-    <a href="/#venue">Venue</a>
+    <a href="/#story">Mensaje de los Novios</a>
+    <a href="/#schedule">Cronograma</a>
+    <a href="/#venue">Evento</a>
   </div>
 
             
           </div>
 
-          <Link to="/gallery">Gallery</Link>
-          <Link to="/faq">FAQ</Link>
+          <Link to="/gallery">Gallería</Link>
+          <Link to="/faq">Preguntas Frequentes</Link>
         </div>
       </nav>
     </header>
