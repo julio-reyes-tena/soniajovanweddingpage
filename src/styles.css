@@ -1,5 +1,13 @@
+/* ==================================================
+   GENERAL LAYOUT
+================================================== */
+
 .site-shell {
   min-height: 100vh;
+}
+
+.home-page {
+  padding-bottom: 250px;
 }
 
 .container {
@@ -17,14 +25,17 @@
 }
 
 
+/* ==================================================
+   NAVIGATION
+================================================== */
 
 .navbar {
   position: sticky;
   top: 0;
   z-index: 50;
   background: rgba(255, 250, 247, 0.95);
-  backdrop-filter: blur(8px);
   border-bottom: 1px solid #eaded7;
+  backdrop-filter: blur(8px);
 }
 
 .navbar-inner {
@@ -41,7 +52,6 @@
   font-weight: 700;
   color: #78103b;
 }
-
 
 .nav-links {
   display: flex;
@@ -61,12 +71,14 @@
   border: none;
   border-radius: 10px;
   background: transparent;
+  color: #5c4a42;
   font: inherit;
   font-size: 0.95rem;
-  color: #5c4a42;
   text-decoration: none;
   cursor: pointer;
-  transition: background 0.2s ease, color 0.2s ease;
+  transition:
+    background 0.2s ease,
+    color 0.2s ease;
 }
 
 .nav-links > a:hover,
@@ -74,6 +86,11 @@
   background: #f1e5de;
   color: #78103b;
 }
+
+
+/* ==================================================
+   DESKTOP HOME DROPDOWN
+================================================== */
 
 .nav-dropdown {
   position: relative;
@@ -122,20 +139,26 @@
 }
 
 
+/* Hidden on desktop; displayed in mobile media query */
+.mobile-menu-button {
+  display: none;
+}
 
 
+/* ==================================================
+   HERO
+================================================== */
 
 .hero {
-  min-height: 78vh;
   display: flex;
   align-items: center;
+  min-height: 78vh;
 }
 
 .hero-layout {
   display: grid;
   grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
   align-items: stretch;
-  gap: 0;
   overflow: hidden;
   border-radius: 28px;
   background: rgba(136, 27, 27, 0.92);
@@ -158,45 +181,17 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  text-align: center;
   padding: 56px 40px;
+  text-align: center;
   background: rgba(255, 250, 247, 0.96);
 }
-.eyebrow {    /*"casori de " */
+
+.eyebrow {
   margin: 0 0 16px;
-  text-transform: uppercase;
-  letter-spacing: 0.28em;
-  font-size: 0.82rem;
   color: #0b0e0d;
-}
-
-h1 {
-  margin: 0 0 16px;
-  font-size: clamp(3rem, 8vw, 5.5rem);
-  line-height: 1;
-  color: #3b2f2f;
-}
-
-h2 {
-  display: inline-block;
-  margin: 0 0 20px;
-  padding: 10px 20px;
-  font-size: clamp(2rem, 4vw, 2.8rem);
-  color: #6d2929;
-  background: rgba(210, 130, 84, 0.9);
-  border-radius: 14px;
-  box-shadow: 0 6px 18px rgba(59, 47, 47, 0.12);
-}
-
-h3 {
-  margin: 0 0 12px;
-  font-size: 1.35rem;
-  color: #3b2f2f;
-}
-
-p {
-  line-height: 1.7;
-  color: #5c4a42;
+  font-size: 0.82rem;
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
 }
 
 .hero-date {
@@ -204,25 +199,88 @@ p {
   font-size: 1.35rem;
 }
 
-/*hero button */
 
-.button-primary,
-.button-secondary {
+/* ==================================================
+   TYPOGRAPHY
+================================================== */
+
+h1 {
+  margin: 0 0 16px;
+  color: #3b2f2f;
+  font-size: clamp(3rem, 8vw, 5.5rem);
+  line-height: 1;
+}
+
+h2 {
   display: inline-block;
-  padding: 14px 24px;
-  border-radius: 999px;
-  transition: 0.2s ease;
-  font-size: 0.98rem;
-  cursor: pointer;
+  margin: 0 0 20px;
+  padding: 10px 20px;
+  color: #6d2929;
+  font-size: clamp(2rem, 4vw, 2.8rem);
+  background: rgba(210, 130, 84, 0.9);
+  border-radius: 14px;
+  box-shadow: 0 6px 18px rgba(59, 47, 47, 0.12);
+}
+
+h3 {
+  margin: 0 0 12px;
+  color: #3b2f2f;
+  font-size: 1.35rem;
+}
+
+p {
+  color: #5c4a42;
+  line-height: 1.7;
 }
 
 
+/* ==================================================
+   COUNTDOWN
+================================================== */
 
-/*venue button  google maps button */
+.countdown {
+  display: flex;
+  justify-content: center;
+  gap: 28px;
+  margin: 10px 0 28px;
+}
+
+.countdown div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.countdown span {
+  color: #3b2f2f;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.countdown small {
+  color: #9c7b6b;
+  font-size: 0.75rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+
+/* ==================================================
+   BUTTONS
+================================================== */
+
 .button-secondary {
+  display: inline-block;
+  padding: 14px 24px;
+  border: 1px solid #b98b73;
+  border-radius: 999px;
   background: transparent;
   color: #202120;
-  border: 1px solid #b98b73;
+  font-size: 0.98rem;
+  cursor: pointer;
+  transition:
+    background 0.2s ease,
+    color 0.2s ease;
 }
 
 .button-secondary:hover {
@@ -230,37 +288,53 @@ p {
   color: white;
 }
 
-.story-text {
-  display: grid;
 
-  gap: 18px;
-  
+/* ==================================================
+   SHARED CARDS
+================================================== */
+
+.card {
+  padding: 28px;
+  background: #e2dfd0;
+  border: 1px solid #eaded7;
+  border-radius: 24px;
+  box-shadow: 0 10px 30px rgba(204, 80, 26, 0.06);
 }
 
-/*cards under Schedule */
-.card-grid {    
+.story-text {
+  display: grid;
+  gap: 18px;
+}
+
+
+/* ==================================================
+   SCHEDULE
+================================================== */
+
+.card-grid {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 24px;
 }
 
-
-
-.card { /*all card colors venue, rsvp, registry, faq */
-  background: #e2dfd0;
-  border: 1px solid #eaded7;
-  border-radius: 24px;
-  padding: 28px;
-  box-shadow: 0 10px 30px rgba(204, 80, 26, 0.06);
-}
-
-/*time under Schedule, top of cards */
 .card-time {
   margin: 0 0 8px;
-  font-size: 0.82rem;
-  text-transform: uppercase;
-  letter-spacing: 0.14em;
   color: #080908;
+  font-size: 0.82rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+
+/* ==================================================
+   VENUES
+================================================== */
+
+.venue-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  align-items: stretch;
+  gap: 24px;
 }
 
 .venue-card {
@@ -269,17 +343,29 @@ p {
   height: 100%;
 }
 
-.venue-card .button-secondary {
-  margin-top: auto;
-  align-self: center;
+.venue-type {
+  margin: 0 0 8px;
+  color: #121211;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
 }
 
 .venue-card p {
   margin-bottom: 24px;
-    white-space: pre-line;
-
+  white-space: pre-line;
 }
 
+.venue-card .button-secondary {
+  align-self: center;
+  margin-top: auto;
+}
+
+
+/* ==================================================
+   FAQ
+================================================== */
 
 .faq-list {
   display: grid;
@@ -290,101 +376,18 @@ p {
   text-align: center;
 }
 
-.footer {
-  width: min(700px, calc(100% - 260px));
-  margin: 0 auto 190px;
-  padding: 28px 20px;
-  text-align: center;
-    
-
-  background: rgba(173, 36, 36, 0.85);
-  border-radius: 20px;
-}
-
-
-
-.gallery-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 16px;
-  margin-top: 30px;
-}
-
-.gallery-grid img {
-  width: 100%;
-  border-radius: 14px;
-  object-fit: cover;
-}
-
-.countdown {
+.faq-links {
   display: flex;
   justify-content: center;
-  gap: 28px;
-  margin-bottom: 28px;
-  margin-top: 10px;
-}
-
-.countdown div {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.countdown span {
-  font-size: 2rem;
-  font-weight: 600;
-  color: #3b2f2f;
-}
-
-.countdown small {
-  font-size: 0.75rem;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  color: #9c7b6b;
-}
-
-.footer .container {
-  display: flex;
-  justify-content: center;
-  gap: 16px;
+  gap: 12px;
   flex-wrap: wrap;
-}
-
-.social-link {
-  display: inline-block;
-  padding: 10px 18px;
-  border-radius: 999px;
-  background: white;
-  color: #3b2f2f;
-  font-weight: 700;
-  transition: 0.2s ease;
-}
-
-.social-link:hover {
-  transform: translateY(-2px);
-  opacity: 0.9;
-}
-
-.venue-list {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 24px;
-    align-items: stretch;
-
-}
-
-.venue-type {
-  margin: 0 0 8px;
-  font-size: 0.8rem;
-  font-weight: 700;
-  letter-spacing: 0.15em;
-  text-transform: uppercase;
-  color: #121211;
+  margin-top: 18px;
 }
 
 
-
-
+/* ==================================================
+   INFORMATION PAGE
+================================================== */
 
 .info-card-grid {
   display: grid;
@@ -392,12 +395,12 @@ p {
   gap: 24px;
 }
 
-.info-card {
-  text-align: center;
-}
-
 .info-card-grid-two {
   grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.info-card {
+  text-align: center;
 }
 
 .info-list {
@@ -416,31 +419,68 @@ p {
   background: rgba(255, 255, 255, 0.55);
   color: #3b2f2f;
   font-weight: 700;
+  transition: transform 0.2s ease;
 }
 
 .info-list a:hover {
   transform: translateY(-2px);
 }
 
-.faq-links {
+
+/* ==================================================
+   GALLERY
+================================================== */
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+  margin-top: 30px;
+}
+
+.gallery-grid img {
+  width: 100%;
+  border-radius: 14px;
+  object-fit: cover;
+}
+
+
+/* ==================================================
+   FOOTER
+================================================== */
+
+.footer {
+  width: min(700px, calc(100% - 260px));
+  margin: 0 auto 190px;
+  padding: 28px 20px;
+  text-align: center;
+  background: rgba(173, 36, 36, 0.85);
+  border-radius: 20px;
+}
+
+.footer .container {
   display: flex;
   justify-content: center;
-  gap: 12px;
+  gap: 16px;
   flex-wrap: wrap;
-  margin-top: 18px;
 }
 
-.mobile-menu-button {
-  display: none;
+.social-link {
+  display: inline-block;
+  padding: 10px 18px;
+  border-radius: 999px;
+  background: white;
+  color: #3b2f2f;
+  font-weight: 700;
+  transition:
+    transform 0.2s ease,
+    opacity 0.2s ease;
 }
 
-
-.home-page {
-  padding-bottom: 250px;
+.social-link:hover {
+  transform: translateY(-2px);
+  opacity: 0.9;
 }
-
-
-
 
 
 
