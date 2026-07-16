@@ -7,15 +7,15 @@ html {
   box-sizing: border-box;
 }
 
-
 body {
-  margin: 0;
-  font-family: Georgia, serif;
   background-image: url("./assets/flowers realistic.png");
   background-size: 100% auto;
   background-position: top center;
-  background-attachment: scroll;
-  color: #3b2f2f;
+  background-repeat: no-repeat;
+}
+
+.home-page {
+  padding-bottom: 250px;
 }
 
 a {
@@ -30,6 +30,6 @@ img {
 }
 
 #root {
-  min-height: 100vh;
+  min-height: 100%;
 }
 
