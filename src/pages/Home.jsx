@@ -7,17 +7,16 @@ import Footer from "../components/Footer";
 
 function Home() {
   return (
-<div className="site-shell home-page">
-        <Navbar />
-      <Hero /> 
-            <Story />
-     
-      <Venue />
+    <div className="site-shell home-page">
+      <Navbar />
+      <Hero />
 
-      <Schedule />
+      <main className="home-content">
+        <Story />
+        <Venue />
+        <Schedule />
+      </main>
 
-
-      
       <Footer />
     </div>
   );
