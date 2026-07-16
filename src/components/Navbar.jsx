@@ -17,12 +17,12 @@ function Navbar() {
 
             <div className="nav-dropdown-menu">
               <a href="/#story">Mensaje de los Novios</a>
-              <a href="/#schedule">Cronograma</a>
+              <a href="/#schedule">Programa</a>
               <a href="/#venue">Evento</a>
             </div>
           </div>
 
-          <Link to="/information">Información</Link>
+          <Link to="/information">Corte</Link>
           <Link to="/gallery">Galería</Link>
           <Link to="/faq">Preguntas Frecuentes</Link>
         </div>

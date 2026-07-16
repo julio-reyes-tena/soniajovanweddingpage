@@ -8,13 +8,17 @@ function InformationPage() {
 
       <main className="section">
         <div className="container">
-          <h2>Information</h2>
+          <h2>Corte de Bodas</h2>
 
           <div className="info-card-grid info-card-grid-two">
             <article className="card info-card">
-              <h3>Court</h3>
+              <h3>Damas</h3>
 
               <div className="info-list">
+                <p>Bridesmaid Name</p>
+                <p>Bridesmaid Name</p>
+                <p>Bridesmaid Name</p>
+                <p>Bridesmaid Name</p>
                 <p>Bridesmaid Name</p>
                 <p>Bridesmaid Name</p>
                 <p>Groomsman Name</p>
@@ -22,8 +26,25 @@ function InformationPage() {
               </div>
             </article>
 
+               <article className="card info-card">
+              <h3>Caballeros</h3>
+
+              <div className="info-list">
+                <p>Caballeros Name</p>
+                <p>Caballeros Name</p>
+                <p>Caballeros Name</p>
+                <p>Caballeros Name</p>
+                <p>Caballeros Name</p>
+                <p>Caballeros Name</p>
+                <p>Caballeros Name</p>
+                <p>Caballeros Name</p>
+              </div>
+            </article>
+
+
+
             <article className="card info-card">
-              <h3>Parents</h3>
+              <h3>Padres de la Novia</h3>
 
               <div className="info-list">
                 <p>Parents of the Bride</p>
@@ -33,6 +54,45 @@ function InformationPage() {
                 <p>Name & Name</p>
               </div>
             </article>
+
+                    <article className="card info-card">
+              <h3>Padres del Novio</h3>
+
+              <div className="info-list">
+                <p>Parents of the Bride</p>
+                <p>Name & Name</p>
+
+                <p>Parents of the Groom</p>
+                <p>Name & Name</p>
+              </div>
+            </article>
+
+
+
+                    <article className="card info-card">
+              <h3>Padrinos</h3>
+
+              <div className="info-list">
+                <p>Parents of the Bride</p>
+                <p>Name & Name</p>
+
+                <p>Parents of the Groom</p>
+                <p>Name & Name</p>
+              </div>
+            </article>
+
+                      <article className="card info-card">
+              <h3>Padrinos</h3>
+
+              <div className="info-list">
+                <p>Parents of the Bride</p>
+                <p>Name & Name</p>
+
+                <p>Parents of the Groom</p>
+                <p>Name & Name</p>
+              </div>
+            </article>
+
           </div>
         </div>
       </main>

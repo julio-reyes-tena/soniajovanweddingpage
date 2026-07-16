@@ -57,16 +57,32 @@ export const weddingInfo = {
   question: "Hoteles cercanos",
   links: [
     {
-      name: "Hotel Name 1",
-      url: "https://maps.google.com",
+      name: "El Capitan",
+      url: "https://share.google/Bo962egCXsLBZuu2K",
     },
     {
-      name: "Hotel Name 2",
-      url: "https://maps.google.com",
+      name: "Hilton Garden Inn",
+      url: "https://share.google/NUQx1SsRdnSsfuPEl",
     },
     {
-      name: "Hotel Name 3",
-      url: "https://maps.google.com",
+      name: "Hapton Inn & Suites",
+      url: "https://share.google/zmPoVJ1LnBFxscxcc",
+    },
+     {
+      name: "Courtyard by Marriott",
+      url: "https://share.google/YafdrLkFFpFMPBBwD",
+    },
+    {
+      name: "Holiday Inn Express & Suites",
+      url: "https://share.google/hl52npC6fiptfpDj9",
+    },
+    {
+      name: "TownePlace Suites by Marriott",
+      url: "https://share.google/gMMsw5nzvThmIelSO",
+    },
+    {
+      name: "Merced Inn & Suites",
+      url: "https://share.google/mJQBjYQZXCc4jtMHt",
     },
   ],
 },
