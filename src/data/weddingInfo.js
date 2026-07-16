@@ -7,13 +7,13 @@ export const weddingInfo = {
   {
     type: "Ceremonia",
     name: "La Iglesia Sagrado Corazón",
-    address: " 519 W 12th St, Merced, CA 95341",
+    address: " 519 W 12th St, \nMerced, CA 95341",
     mapUrl: "https://share.google/PFmSiT4BnisNXOHtL",
   },
   {
-    type: "Reception",
+    type: "Recepcion",
     name: "Rancho Pulido",
-     address: "970 Mather Rd, Merced, CA 95341",
+     address: "\n970 Mather Rd, \nMerced, CA 95341",
     mapUrl: "https://share.google/njvGQuz4SCj3J4Q9o",
   },
 ],

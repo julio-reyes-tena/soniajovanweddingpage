@@ -12,7 +12,7 @@
 }
 
 .section {
-  padding: 88px 0;
+  padding: 40px 0;
   text-align: center;
 }
 
@@ -177,7 +177,7 @@ h1 {
 }
 
 h2 {
-  margin: 0 0 28px;
+  margin: 0 0 20px;
   font-size: clamp(2rem, 4vw, 2.8rem);
   color: #3b2f2f;
 }
@@ -237,7 +237,7 @@ p {
   display: grid;
 
   gap: 18px;
-  row-gap: 18px;
+  
 }
 
 /*cards under Schedule */
@@ -266,10 +266,22 @@ p {
   color: #080908;
 }
 
-.venue-card p {
-  margin-bottom: 42px;
+.venue-card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 
+.venue-card .button-secondary {
+  margin-top: auto;
+  align-self: center;
+}
+
+.venue-card p {
+  margin-bottom: 24px;
+    white-space: pre-line;
+
+}
 
 
 .faq-list {
@@ -358,6 +370,8 @@ p {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 24px;
+    align-items: stretch;
+
 }
 
 .venue-type {
@@ -483,7 +497,7 @@ p {
   }
 
   .section {
-    padding: 72px 0;
+    padding: 40px 0;
   }
 
   .footer {
