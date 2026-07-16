@@ -467,7 +467,7 @@ p {
 
   @media (max-width: 820px) {
   body {
-    background-image: url("./assets/flower3.png");
+    background-image: url("./assets/sj3.jpeg");
     background-size: 100% auto;
     background-position: top center;
   }
@@ -600,4 +600,84 @@ p {
     width: calc(100% - 32px);
     margin-bottom: 100px;
   }
+  @media (max-width: 820px) {
+  /* Fixed full-screen couple photo */
+  .home-page .hero {
+    position: fixed;
+    inset: 0;
+    z-index: 0;
+    width: 100%;
+    min-height: 100svh;
+    padding: 0;
+    background-image:
+      linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.08) 20%,
+        rgba(0, 0, 0, 0.55) 100%
+      ),
+      var(--hero-mobile-image);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  /* Remove the desktop split image on mobile */
+  .home-page .hero-image-wrap {
+    display: none;
+  }
+
+  .home-page .hero-layout {
+    display: flex;
+    min-height: 100svh;
+    align-items: flex-end;
+    justify-content: center;
+    overflow: visible;
+    background: transparent;
+    border-radius: 0;
+    box-shadow: none;
+  }
+
+  .home-page .hero-content {
+    width: 100%;
+    padding: 34px 24px 80px;
+    background: linear-gradient(
+      to bottom,
+      transparent,
+      rgba(0, 0, 0, 0.72)
+    );
+  }
+
+  .home-page .hero-content h1,
+  .home-page .hero-date,
+  .home-page .eyebrow,
+  .home-page .countdown span,
+  .home-page .countdown small {
+    color: white;
+  }
+
+  /* Push the first content section below the full-screen photo */
+  .home-page .hero + .section {
+    margin-top: 100svh;
+  }
+
+  /* All sections scroll above the fixed photo */
+  .home-page > .section:not(.hero),
+  .home-page > footer {
+    position: relative;
+    z-index: 2;
+  }
+
+  .home-page > .section:not(.hero) {
+    width: calc(100% - 24px);
+    margin-right: auto;
+    margin-left: auto;
+    padding: 28px 12px;
+    background: rgba(255, 255, 255, 0.94);
+    border-radius: 24px;
+  }
+
+  .home-page > .section:not(.hero) + .section {
+    margin-top: 18px;
+  }
+}
 }

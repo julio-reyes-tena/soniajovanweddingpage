@@ -7,8 +7,8 @@ import Footer from "../components/Footer";
 
 function Home() {
   return (
-    <div className="site-shell">
-      <Navbar />
+<div className="site-shell home-page">
+        <Navbar />
       <Hero /> 
             <Story />
      

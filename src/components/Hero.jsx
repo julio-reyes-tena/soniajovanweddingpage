@@ -28,7 +28,11 @@ function Hero() {
   }, []);
 
   return (
-    <section id="home" className="hero section">
+    <section
+  id="home"
+  className="hero section"
+  style={{ "--hero-mobile-image": `url(${hero})` }}
+>
       <div className="container hero-layout">
         <div className="hero-image-wrap">
           <img
