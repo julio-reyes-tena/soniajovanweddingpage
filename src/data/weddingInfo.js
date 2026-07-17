@@ -11,7 +11,7 @@ export const weddingInfo = {
     mapUrl: "https://share.google/PFmSiT4BnisNXOHtL",
   },
   {
-    type: "Recepcion",
+    type: "Recepción",
     name: "Rancho Pulido",
      address: "\n970 Mather Rd, \nMerced, CA 95341",
     mapUrl: "https://share.google/njvGQuz4SCj3J4Q9o",
@@ -24,30 +24,30 @@ export const weddingInfo = {
     title: "Mensaje de los Novios",
     paragraphs: [
 
-      "Queridos amigos y familiares, estamos profundamente agradecidos por su presencia. Su apoyo y amor hacen que este día sea inolvidable para nosotros. Su presencia es regalo suficiente, pero si gustan darnos un regalo, apreciaremos una contribución hacia nuestra luna de miel.",
+    "Queridos amigos y familiares, estamos profundamente agradecidos por su presencia. Su apoyo y amor hacen que este día sea inolvidable para nosotros. Su presencia es regalo suficiente, pero si gustan hacernos un regalo, apreciaremos una contribución para nuestra luna de miel."
     ],
   },
   schedule: [
     {
       time: "12:30 PM",
       title: "Cermonia",
-      description: "Ceremonia de bodas",
+      description: "Misa",
     },
     {
-      time: "2:00 PM",
+      time: "1:30 PM",
       title: "Fotos ",
-      description: "Fotos en la Iglesia.",
+      description: "Fotos en la Iglesia",
     },
     
     {
       time: "3:00 PM",
       title: "Comida",
-      description: "Comida Disponible.",
+      description: "Comida Disponible",
     },
     {
       time: "6:00 PM +",
       title: "Reception",
-      description: "Musica y Baile.",
+      description: "Música y Baile",
     },
     
   ],
@@ -110,8 +110,8 @@ export const weddingInfo = {
       answer: "Cuando lleguen al rancho, ya estarán disponibles las bebidas y las botanas.   "
     },
      {
-      question: "Recalentado",
-      answer: "Tendremos recalentado, también conocido como torna boda, antes de que regresen a casa.  "
+      question: "Tornaboda",
+      answer: "Tendremos tornaboda (recalentado), el día siguiente septiemebre 13 a las 1 o 2 de la tarde.  "
     },
 
 

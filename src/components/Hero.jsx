@@ -52,22 +52,22 @@ function Hero() {
           <div className="countdown">
             <div>
               <span>{timeLeft.days}</span>
-              <small>Days</small>
+              <small>Días</small>
             </div>
 
             <div>
               <span>{timeLeft.hours}</span>
-              <small>Hours</small>
+              <small>Horas</small>
             </div>
 
             <div>
               <span>{timeLeft.minutes}</span>
-              <small>Minutes</small>
+              <small>Minutos</small>
             </div>
 
             <div>
               <span>{timeLeft.seconds}</span>
-              <small>Seconds</small>
+              <small>Segundos</small>
             </div>
           </div>
 

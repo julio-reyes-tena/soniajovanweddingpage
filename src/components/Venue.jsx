@@ -4,7 +4,7 @@ function Venue() {
   return (
     <section id="venue" className="section">
       <div className="container narrow">
-        <h2>Locación de Eventos</h2>
+        <h2>Ubicación de Eventos</h2>
 
         <div className="venue-list">
           {weddingInfo.venues.map((venue, index) => (
