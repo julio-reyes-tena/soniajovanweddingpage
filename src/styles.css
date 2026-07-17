@@ -766,4 +766,21 @@ p {
   position: relative;
   z-index: 2;
 }
+
+
+/*mobile schedule boxes*/
+
+@media (max-width: 820px) {
+  #schedule .card-grid {
+    display: grid;
+    grid-template-columns: 1fr !important;
+    gap: 16px;
+  }
+
+  #schedule .card {
+    width: 100%;
+  }
+}
+
+
 }
