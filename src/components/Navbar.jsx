@@ -51,13 +51,9 @@ function Navbar() {
             </div>
           </div>
 
-          <Link to="/information" onClick={closeMenu}>
-            Información
-          </Link>
+          
 
-          <Link to="/gallery" onClick={closeMenu}>
-            Galería
-          </Link>
+    
 
           <Link to="/faq" onClick={closeMenu}>
             Preguntas Frecuentes

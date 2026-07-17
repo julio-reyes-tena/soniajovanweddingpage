@@ -23,6 +23,7 @@ export const weddingInfo = {
   story: {
     title: "Mensaje de los Novios",
     paragraphs: [
+
       "Queridos amigos y familiares, estamos profundamente agradecidos por su presencia. Su apoyo y amor hacen que este día sea inolvidable para nosotros. Su presencia es regalo suficiente, pero si gustan darnos un regalo, apreciaremos una contribución hacia nuestra luna de miel.",
     ],
   },

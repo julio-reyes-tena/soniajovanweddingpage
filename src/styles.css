@@ -389,64 +389,8 @@ p {
 }
 
 
-/* ==================================================
-   INFORMATION PAGE
-================================================== */
-
-.info-card-grid {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 24px;
-}
-
-.info-card-grid-two {
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-}
-
-.info-card {
-  text-align: center;
-}
-
-.info-list {
-  display: grid;
-  gap: 12px;
-}
-
-.info-list p {
-  margin: 0;
-}
-
-.info-list a {
-  display: block;
-  padding: 10px 14px;
-  border-radius: 10px;
-  background: rgba(255, 255, 255, 0.55);
-  color: #c30a0a;
-  font-weight: 700;
-  transition: transform 0.2s ease;
-}
-
-.info-list a:hover {
-  transform: translateY(-2px);
-}
 
 
-/* ==================================================
-   GALLERY
-================================================== */
-
-.gallery-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 16px;
-  margin-top: 30px;
-}
-
-.gallery-grid img {
-  width: 100%;
-  border-radius: 14px;
-  object-fit: cover;
-}
 
 
 /* ==================================================
@@ -669,10 +613,7 @@ p {
 
   .card-grid,
   .venue-list,
-  .info-card-grid {
-    grid-template-columns: 1fr;
-    gap: 16px;
-  }
+ 
 
   .card {
     padding: 22px 18px;
