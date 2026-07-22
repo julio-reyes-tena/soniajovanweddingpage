@@ -4,6 +4,7 @@ import Story from "../components/Story";
 import Schedule from "../components/Schedule";
 import Venue from "../components/Venue";
 import Footer from "../components/Footer";
+import Venmo from "../components/Venmo";
 
 function Home() {
   return (
@@ -15,6 +16,8 @@ function Home() {
         <Story />
         <Venue />
         <Schedule />
+        <Venmo />
+
       </main>
 
       <Footer />
