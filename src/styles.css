@@ -469,19 +469,41 @@ p {
   text-align: center;
 }
 
+.venmo-title {
+  color: #008CFF;
+}
 
 
 .venmo-link {
+  color: #008CFF;
   text-decoration: none;
-  color: inherit;
   display: block;
 }
 
-.venmo-link:hover .venmo-title {
-  opacity: 0.8;
-  transition: opacity 0.2s ease;
-  cursor: pointer;
+.venmo-link:hover {
+  color: #0077db;
 }
+
+.venmo-link:hover .venmo-title {
+  opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
