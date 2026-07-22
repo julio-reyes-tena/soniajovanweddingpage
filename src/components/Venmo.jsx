@@ -2,7 +2,16 @@ function Venmo() {
   return (
     <section className="section venmo-section">
       <div className="container">
-<h2 className="venmo-title">@ReyesTenaPulidoWedding</h2>
+
+        <a
+  href="https://venmo.com/u/ReyesTenaPulidoWedding"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="venmo-link"
+>
+  <h2 className="venmo-title">@ReyesTenaPulidoWedding</h2>
+</a>
+
 
         <div className="venmo-card">
           <img

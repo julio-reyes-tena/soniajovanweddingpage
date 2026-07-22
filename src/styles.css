@@ -471,7 +471,17 @@ p {
 
 
 
+.venmo-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
 
+.venmo-link:hover .venmo-title {
+  opacity: 0.8;
+  transition: opacity 0.2s ease;
+  cursor: pointer;
+}
 
 
 
