@@ -111,7 +111,7 @@ export const weddingInfo = {
     },
      {
       question: "Tornaboda",
-      answer: "Tendremos tornaboda (recalentado), el día siguiente septiemebre 13 a las 1 o 2 de la tarde.  "
+      answer: "Tendremos tornaboda, el día siguiente Septiemebre 13 a la 1 o 2 de la tarde.  "
     },
 
 
